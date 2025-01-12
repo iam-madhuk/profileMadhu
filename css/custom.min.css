@@ -206,3 +206,11 @@ body {
   height: 240px;
   margin: 2%;
 }
+.profile-picture {
+  width: 100%;
+  max-width: 150px; /* Set the desired maximum width */
+  height: auto; /* Maintain the aspect ratio */
+  border-radius: 50%; /* Make it circular */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  object-fit: cover; /* Ensure the image scales well within the container */
+}
